@@ -154,6 +154,7 @@ a,
 }
 
 img {
+     width: 20%;
      max-width: 100%;
      height: auto;
 }
@@ -307,7 +308,7 @@ button {
      margin-right: 0;
      margin-bottom: 0;
      position: absolute;
-     width: 100%;
+     width: 140%;
      height: 98px;
      margin-top: -20px;
      right: 0;
@@ -316,7 +317,6 @@ button {
 .header_information::before {
      width: 84px;
      height: 98px;
-     background: url(../images/top_arrow1.png);
      background-repeat: repeat;
      display: block;
      content: "";

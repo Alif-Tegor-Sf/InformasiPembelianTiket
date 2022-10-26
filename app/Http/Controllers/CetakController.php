@@ -4,15 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PemesananController extends Controller
+class CetakController extends Controller
 {
+   
     /**
      * Show the application dashboard.
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function Pemesanan()
+    public function Cetak()
     {
-        return view('Pemesanan');
+        return view('/Cetak');
     }
 }

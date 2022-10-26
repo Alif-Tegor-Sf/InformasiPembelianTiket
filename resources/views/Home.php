@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>blueneek</title>
+      <title>Tiket Online</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -46,7 +46,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="Home"><img src="images/logo.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -60,19 +60,19 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item active">
-                                    <a class="nav-link" href="Home.html"> Home  </a>
+                                    <a class="nav-link" href="Home">Home</a>
                                  </li> 
                                  <li class="nav-item">
-                                    <a class="nav-link" href="clients.html">Our Clients</a>
+                                    <a class="nav-link" href="Pemesanan">Pemesanan</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="ourwork.html">Our Work</a>
+                                    <a class="nav-link" href="Pembayaran">Pembayaran</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                    <a class="nav-link" href="Cetak">Cetak</a>
                                  </li>
                               </ul>
-                              <div class="sign_btn"><a href="#">Get A Quote</a></div>
+                              <div class="sign_btn"><a href="#">Admin</a></div>
                            </div>
                         </nav>
                      </div>
@@ -83,7 +83,70 @@
       </header>
       <!-- end header inner -->
       <!-- end header -->
-    
+      <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="first-slide" src="images/banner.jpg" alt="First slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>We Provide</span> Web Services</h1>
+                     <a href="#Pemesanan">Pemesanan</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="second-slide" src="images/banner.jpg" alt="Second slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>We Provide</span> Web Services</h1>
+                     <a href="#Pemesanan">Pemesanan</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="third-slide" src="images/banner.jpg" alt="Third slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>We Provide</span> Web Services</h1>
+                     <a href="#Pemesanan">Pemesanan</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="third-slide" src="images/banner.jpg" alt="four slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>We Provide</span> Web Services</h1>
+                     <a href="# Pemesanan">Pemesanan</a>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img class="third-slide" src="images/banner.jpg" alt="five slide">
+               <div class="container">
+                  <div class="carousel-caption relative">
+                     <h1> <span>We Provide</span> Web Services</h1>
+                     <a href="#Pemesanan">Pemesanan</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+         </a>
+      </div>
       <!-- about -->
       <div id="about"  class="about">
          <div class="container">

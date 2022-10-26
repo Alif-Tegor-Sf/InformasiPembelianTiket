@@ -46,7 +46,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="Pemesanan"><img src="images/logo.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -60,16 +60,16 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item ">
-                                    <a class="nav-link" href="Home.php"> Home  </a>
+                                    <a class="nav-link" href="Home">Home</a>
                                  </li> 
                                  <li class="nav-item active">
-                                    <a class="nav-link" href="Pemesanan.Pemesanan">Pemesanan</a>
+                                    <a class="nav-link" href="Pemesanan">Pemesanan</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="Pembayaran.php">Pembayaran</a>
+                                    <a class="nav-link" href="Pembayaran">Pembayaran</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="Cetak.php">Cetak</a>
+                                    <a class="nav-link" href="Cetak">Cetak</a>
                                  </li>
                               </ul>
                               <div class="sign_btn"><a href="#">Admin</a></div>

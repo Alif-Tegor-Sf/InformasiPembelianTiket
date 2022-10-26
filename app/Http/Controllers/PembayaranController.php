@@ -4,15 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PemesananController extends Controller
+class PembayaranController extends Controller
 {
+   
     /**
      * Show the application dashboard.
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function Pemesanan()
+    public function Pembayaran()
     {
-        return view('Pemesanan');
+        return view('/Pembayaran');
     }
 }
