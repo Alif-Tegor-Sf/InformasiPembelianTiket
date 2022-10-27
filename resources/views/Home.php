@@ -93,47 +93,47 @@
          </ol>
          <div class="carousel-inner">
             <div class="carousel-item active">
-               <img class="first-slide" src="images/banner.jpg" alt="First slide">
+               <img class="first-slide" src="images/gambar1.jpg" alt="First slide">
                <div class="container">
                   <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
+                     <!-- <h1> <span>We Provide</span> Web Services</h1> -->
+                     <!-- <a href="#Pemesanan">Pemesanan</a> -->
                   </div>
                </div>
             </div>
             <div class="carousel-item">
-               <img class="second-slide" src="images/banner.jpg" alt="Second slide">
+               <img class="second-slide" src="images/image5.jpg" alt="Second slide">
                <div class="container">
                   <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
+                     <h1> <span></span>PETUNJUK WISATA BUKIT TINGGI</h1>
+                     <!-- <a href="#Pemesanan">Pemesanan</a> -->
                   </div>
                </div>
             </div>
             <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="Third slide">
+               <img class="third-slide" src="images/gambar3.jpg" alt="Third slide">
                <div class="container">
                   <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
+                     <h1> <span></span>SELAMAT DATANG PENGUNJUNG BUKIT TINGGI</h1>
+                     <!-- <a href="#Pemesanan">Pemesanan</a> -->
                   </div>
                </div>
             </div>
             <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="four slide">
+               <img class="third-slide" src="images/image3.jpg" alt="four slide">
                <div class="container">
                   <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="# Pemesanan">Pemesanan</a>
+                     <h1> <span></span>SPOT FOTO WISATA BUKIT TINGGI</h1>
+                     <!-- <a href="# Pemesanan">Pemesanan</a> -->
                   </div>
                </div>
             </div>
             <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="five slide">
+               <img class="third-slide" src="images/image4.jpg" alt="five slide">
                <div class="container">
                   <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
+                     <h1> <span></span> HOME LOVE</h1>
+                     <!-- <a href="#Pemesanan">Pemesanan</a> -->
                   </div>
                </div>
             </div>
@@ -153,10 +153,11 @@
             <div class="row d_flex">
                <div class="col-md-7">
                   <div class="titlepage">
-                     <h2>About Us</h2>
+                     <h2>Booking Online Wisata Bukit Tinggi</h2>
                      <span></span>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                     <a class="read_more">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                     <p>
+Booking online selama 24 jam. cermati tata cara dan aturan sesuai dengan prosedur yang sudah ditetapkan, disarankan untuk booking dan pembayaran dilakukan jauh hari sebelum tanggal keberangkatan.</p>
+                     <a href="Pemesanan" class="read_more">PESAN SEKARANG<i aria-hidden="true"></i></a>
                   </div>
                </div>
                <div class="col-md-5">
@@ -175,7 +176,7 @@
             <div class="container">
                <div class="row border-top">
                   <div class="col-md-6 padding_bottom1   ">
-                     <h3>Subscribe Now</h3>
+                     <!-- <h3>Subscribe Now</h3>
                      <form class="footer_form">
                         <input class="enter" placeholder="Enter your email" type="type" name="Enter your email">
                         <button class="submit">submit</button>
@@ -193,7 +194,7 @@
                            <h3>Contact us</h3>
                            <ul class="cont">
                               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </li>
-                           </ul>
+                           </ul> -->
                         </div>
                      </div>
                   </div>
@@ -203,7 +204,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. <a href="https://html.design/"> Free Html Templates</a></p>
+                        <p>© 2022 WISATA BUKIT TINGGI SUMENEP MADURA</p>
                      </div>
                   </div>
                </div>

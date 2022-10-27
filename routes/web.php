@@ -1,10 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controller\HomeController;
-use app\Http\Controller\PemesananController;
-use app\Http\Controller\PembayaranCtroller;
-use app\Http\Controller\CetakController;
+// use app\Http\Controllers\HomeController;
+// use app\Http\Controllers\PemesananController;
+// use app\Http\Controllers\PembayaranCtroller;
+// use app\Http\Controllers\CetakController;
+use app\Http\Controllers\Admin;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,10 +37,19 @@ Route::get('', function ()
     return view('Home');
 });
 
-
+Route::get('', function () 
+{
+    return view('admin');
+});
 
 
 Route::get('Home', [App\Http\Controllers\HomeController::class, 'Home'])->name('Home');
 Route::get('/Pemesanan', [App\Http\Controllers\PemesananController::class, 'Pemesanan'])->name('Pemesanan');
 Route::get('/Pembayaran', [App\Http\Controllers\PembayaranController::class, 'Pembayaran'])->name('Pembayaran');
 Route::get('/Cetak', [App\Http\Controllers\CetakController::class, 'Cetak'])->name('Cetak');
+
+
+Route::prefix('admin')->group(function(){
+    Route::get('/',[Admin\Auth\LoginController::class,'loginForm']);
+    Route::get('/login',[Admin\Auth\LoginController::class,'loginForm'])->name('admin.login');
+});
