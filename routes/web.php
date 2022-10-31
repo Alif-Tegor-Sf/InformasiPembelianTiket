@@ -37,10 +37,7 @@ Route::get('', function ()
     return view('Home');
 });
 
-Route::get('', function () 
-{
-    return view('admin');
-});
+
 
 
 Route::get('Home', [App\Http\Controllers\HomeController::class, 'Home'])->name('Home');
@@ -49,7 +46,3 @@ Route::get('/Pembayaran', [App\Http\Controllers\PembayaranController::class, 'Pe
 Route::get('/Cetak', [App\Http\Controllers\CetakController::class, 'Cetak'])->name('Cetak');
 
 
-Route::prefix('admin')->group(function(){
-    Route::get('/',[Admin\Auth\LoginController::class,'loginForm']);
-    Route::get('/login',[Admin\Auth\LoginController::class,'loginForm'])->name('admin.login');
-});

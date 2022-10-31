@@ -48,13 +48,14 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="/Cetak"><img src="images/logo.png" alt="#" /></a>
+                              <a href="Home"><img src="images/bukit_tinggilogo1.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>
                   </div>
                   <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                      <div class="header_information">
+                     <a href="Home"><img src="images/coba2.jpg" alt="#" /></a>
                         <nav class="navigation navbar navbar-expand-md navbar-dark ">
                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                            <span class="navbar-toggler-icon"></span>
