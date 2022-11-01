@@ -45,4 +45,9 @@ Route::get('/Pemesanan', [App\Http\Controllers\PemesananController::class, 'Peme
 Route::get('/Pembayaran', [App\Http\Controllers\PembayaranController::class, 'Pembayaran'])->name('Pembayaran');
 Route::get('/Cetak', [App\Http\Controllers\CetakController::class, 'Cetak'])->name('Cetak');
 
+Route::prefix('admin')->group(function () {
+    //Route::get('/', [Admin\Auth\LoginController::class, 'loginForm']);
+    Route::get('/login', [Admin\Auth\LoginController::class, 'login'])->name('admin.login');
+    Route::get('/dashboard', [Admin\HomeController::class, 'index'])->name('admin.home');
+});
 
