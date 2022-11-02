@@ -73,7 +73,7 @@
                                     <a class="nav-link" href="Cetak">Cetak</a>
                                  </li>
                               </ul>
-                              <div class="sign_btn"><a href="#">Admin</a></div>
+                              <div class="sign_btn"><a href="admin">Admin</a></div>
                            </div>
                         </nav>
                      </div>
@@ -86,27 +86,46 @@
       <!-- end header -->
      
       <!-- clients -->
-      <div class="clients">
+      <div id="pemesanan" class="pemesanan">
          <div class="container">
             <div class="row">
-               <div class="col-md-6 offset-md-3">
+               <div class="col-md-12">
                   <div class="titlepage">
-                     <h2>What is Say clients</h2>
-                     <span></span>
+                     <h2>Form Pemesanan</h2>
                   </div>
                </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="clients_box">
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                  </div>
-                  <div class="jonu">
-                     <img src="images/cross_img.png" alt="#"/>
-                     <h3>Jone due</h3>
-                     <strong>(sure there isn't)</strong>
-                     <a class="read_more" href="#">Get A Quote</a>
-                  </div>
+               <div class="col-md-6 offset-md-3">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <label for="NIK">NIK </label>
+                           <input class="control-form-rows" placeholder="NIK" type="text" name="NIK">
+                        </div>
+                        <div class="col-md-12">
+                        <label for="Nama Lengkap">Nama Lengkap </label>
+                           <input class="control-form-rows" placeholder="Nama Lengkap" type="text" name="Nama Lengkap"> 
+                        </div>
+                        <div class="col-md-12">
+                        <label for="Alamat">Alamat </label>
+                           <input class="control-form-rows" placeholder="Alamat" type="text" name="Alamat"> 
+                        </div>
+                        <div class="col-md-12">
+                        <label for="Nomor Telephone"> Nomor Telephone </label>
+                           <input class="control-form-rows" placeholder="Nomor Telephone" type="text" name="Nomor Telephone">                          
+                        </div>
+                        <div class="col-md-12">
+                        <label for="Jumlah Tiket">Jumlah Tiket </label>
+                           <input class="control-form-rows" placeholder="Jumlah Tiket" type="text" name="Jumlah Tiket">
+                        </div>
+                        <div class="col-md-12">
+                        <label for="Harga">Harga </label>
+                           <input class="control-form-rows" placeholder="Harga" type="text" name="Harga">
+                        </div>
+                        <div class="col-sm-12">
+                           <a href="Pembayaran" button class="send_btn">Kirim</button></a>
+                        </div>
+                     </div>
+                  </form>
                </div>
             </div>
          </div>

@@ -75,7 +75,7 @@
                                     <a class="nav-link" href="Cetak">Cetak</a>
                                  </li>
                               </ul>
-                              <div class="sign_btn"><a href="#">Admin</a></div>
+                              <div class="sign_btn"><a href="admin">Admin</a></div>
                            </div>
                         </nav>
                      </div>
