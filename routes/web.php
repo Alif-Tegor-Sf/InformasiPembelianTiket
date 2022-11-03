@@ -7,7 +7,7 @@ use app\Http\Controllers\PembayaranCtroller;
 use app\Http\Controllers\CetakController;
 use app\Http\Controllers\AuthController;
 use app\Http\Controllers\DashboardController;
-use app\Http\Controllers\Admin;
+// use app\Http\Controllers\Admin;
 
 /*
 |--------------------------------------------------------------------------
