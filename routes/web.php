@@ -1,10 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-// use app\Http\Controllers\HomeController;
-// use app\Http\Controllers\PemesananController;
-// use app\Http\Controllers\PembayaranCtroller;
-// use app\Http\Controllers\CetakController;
+use app\Http\Controllers\HomeController;
+use app\Http\Controllers\PemesananController;
+use app\Http\Controllers\PembayaranCtroller;
+use app\Http\Controllers\CetakController;
+use app\Http\Controllers\AuthController;
+use app\Http\Controllers\DashboardController;
 use app\Http\Controllers\Admin;
 
 /*
@@ -45,9 +47,10 @@ Route::get('/Pemesanan', [App\Http\Controllers\PemesananController::class, 'Peme
 Route::get('/Pembayaran', [App\Http\Controllers\PembayaranController::class, 'Pembayaran'])->name('Pembayaran');
 Route::get('/Cetak', [App\Http\Controllers\CetakController::class, 'Cetak'])->name('Cetak');
 
-Route::prefix('admin')->group(function () {
-    //Route::get('/', [Admin\Auth\LoginController::class, 'loginForm']);
-    Route::get('/login', [Admin\Auth\LoginController::class, 'login'])->name('admin.login');
-    Route::get('/dashboard', [Admin\HomeController::class, 'index'])->name('admin.home');
-});
-
+//auth
+Route::get('/login',[App\Http\Controllers\AuthController::class, 'login'])->name('login');
+Route::Post('/login',[App\Http\Controllers\AuthController::class, 'authenticated']);
+Route::get('/logout', [App\Http\Controllers\AuthController::class, 'logout']);
+ 
+//dashboardAdmin
+Route::get('/dashboard',[App\Http\Controllers\DashboardController::class, 'index'])->middleware('auth');
