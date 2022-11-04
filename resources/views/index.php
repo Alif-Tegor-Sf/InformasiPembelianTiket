@@ -46,7 +46,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index"><img src="images/logo.png" alt="#" /></a>
+                           <a href="Home"><img src="images/bukit_tinggilogo1.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -60,19 +60,19 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item active">
-                                    <a class="nav-link" href="Home">Home</a>
+                                    <a class="nav-link" href="Informasi-Pemesanan">Informasi-Pemesanan</a>
                                  </li> 
                                  <li class="nav-item">
-                                    <a class="nav-link" href="Pemesanan">Pemesanan</a>
+                                    <a class="nav-link" href="Pembelian-Offline">Pembelian-Offline</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="Pembayaran">Pembayaran</a>
+                                    <a class="nav-link" href="Kelola">Kelola</a>
                                  </li>
                                  <li class="nav-item">
-                                    <a class="nav-link" href="Cetak">Cetak</a>
+                                    <a class="nav-link" href="Laporan">Laporan</a>
                                  </li>
-                              </ul>
-                              <div class="sign_btn"><a href="/login">Admin</a></div>
+                                 </ul>
+                              <div class="sign_btn"><a href="/logout">Logout</a></div>
                            </div>
                         </nav>
                      </div>
@@ -80,116 +80,6 @@
                </div>
             </div>
          </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
-      <div id="myCarousel" class="carousel slide banner_main" data-ride="carousel">
-         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-         </ol>
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <img class="first-slide" src="images/banner.jpg" alt="First slide">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <img class="second-slide" src="images/banner.jpg" alt="Second slide">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="Third slide">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="four slide">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="# Pemesanan">Pemesanan</a>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <img class="third-slide" src="images/banner.jpg" alt="five slide">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <h1> <span>We Provide</span> Web Services</h1>
-                     <a href="#Pemesanan">Pemesanan</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-         </a>
-         <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-         </a>
-      </div>
-      <!-- end banner -->
-      <!-- about -->
-      <div id="about"  class="about">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-7">
-                  <div class="titlepage">
-                     <h2>Web Development</h2>
-                     <span></span>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                     <a class="read_more">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                  </div>
-               </div>
-               <div class="col-md-5">
-                  <div class="about_img">
-                     <figure><img src="images/about_img.png" alt="#"/></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end about -->
-      <!-- mobile -->
-      <div id="mobile"  class="mobile">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-5">
-                  <div class="mobile_img">
-                     <figure><img src="images/mobile.png" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-7">
-                  <div class="titlepage">
-                     <h2>Mobile App Development</h2>
-                     <span></span>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-                     <a class="read_more">Read More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
       <!-- end mobile -->
       <!-- clients -->
       <div class="clients">

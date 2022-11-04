@@ -7,7 +7,8 @@ use app\Http\Controllers\PembayaranCtroller;
 use app\Http\Controllers\CetakController;
 use app\Http\Controllers\AuthController;
 use app\Http\Controllers\DashboardController;
-// use app\Http\Controllers\Admin;
+use app\Http\Controllers\Admin;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -51,6 +52,7 @@ Route::get('/Cetak', [App\Http\Controllers\CetakController::class, 'Cetak'])->na
 Route::get('/login',[App\Http\Controllers\AuthController::class, 'login'])->name('login');
 Route::Post('/login',[App\Http\Controllers\AuthController::class, 'authenticated']);
 Route::get('/logout', [App\Http\Controllers\AuthController::class, 'logout']);
+
  
 //dashboardAdmin
-Route::get('/dashboard',[App\Http\Controllers\DashboardController::class, 'index'])->middleware('auth');
+Route::get('/dashboard',[App\Http\Controllers\DashboardController::class, 'informasi'])->middleware('auth');
